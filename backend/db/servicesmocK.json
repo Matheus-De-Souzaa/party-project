@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Open Bar",
+    "description": "Todas as bebidas servidas de forma gratuita para os seus convidados.",
+    "price": 2000,
+    "image": "https://img.freepik.com/fotos-premium/copos-de-vinho-e-estavam-abertos-sinal-de-neon-vermelho-na-noite_1028938-477397.jpg?semt=ais_hybrid."
+  },
+  {
+    "name": "Segurança",
+    "description": "Esquema de segurança completo para a sua festa.",
+    "price": 2500,
+    "image": "https://blog.megavig.com.br/wp-content/uploads/2018/04/eventos1-1.jpg"
+  },
+  {
+    "name": "Brinquedos",
+    "description": "Deixe a sua festa mais divertida para as crianças.",
+    "price": 1200,
+    "image": "https://babyherois.com.br/wp-content/uploads/2021/02/2021-02-2-como-escolher-o-brinquedo-inflavel-ideal-2.jpg"
+  },
+  {
+    "name": "DJ",
+    "description": "Anime a sua festa com música eletrônica.",
+    "price": 1800,
+    "image": "https://static.wixstatic.com/media/cb67ab_f85d3342fe23432e82bb3b27a4a4aa28~mv2.jpeg/v1/crop/x_96,y_655,w_2928,h_2691/fill/w_556,h_510,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/COISA%20LINDA%209.jpeg"
+  },
+  {
+    "name": "Banda",
+    "description": "Contrate a nossa banda para escolher a trilha sonora.",
+    "price": 1800,
+    "image": "https://www.groove8musica.com/wp-content/uploads/2017/08/banda-para-casamento-balada-pista-groove-8-bandas.jpg"
+  },
+  {
+    "name": "Buffet",
+    "description": "Buffet completo, com várias opções para você escolher.",
+    "price": 1850,
+    "image": "https://cdn0.casamentos.com.br/article-real-wedding/268/original/1280/jpg/2608460.jpeg"
+  },
+  {
+    "name": "Garçons",
+    "description": "Garçons que servirão tanto aperitivos como bebidas aos convidados.",
+    "price": 2100,
+    "image": "https://img.freepik.com/fotos-premium/meio-do-garcom-profissional-em-uniforme-servindo-vinho-durante-a-festa-de-buffet-evento-festivo-ou-casamento-copos-cheios-de-champanhe-na-bandeja-servico-de-catering-para-festas-ao-ar-livre-garcom-de-plantao_99272-1507.jpg"
+  },
+  {
+    "name": "Barman",
+    "description": "Equipe com barman para servir drinks criativos aos convidados.",
+    "price": 1400,
+    "image": "https://media.istockphoto.com/id/1404412754/pt/foto/various-shakers-and-bottles-stand-on-the-bar-counter-and-bartender-gently-pours-alcoholic.jpg?s=612x612&w=0&k=20&c=Jep2FCZgB1i1xvFvOpBlS24e6P1_slqn0vdKOxLtOAs="
+  },
+  {
+    "name": "Fotógrafos",
+    "description": "Fotógrafos que vão registrar os melhores momentos da sua festa.",
+    "price": 3000,
+    "image": "https://fotografiamais.com.br/wp-content/uploads/2019/04/fotografia-de-eventos-face.jpg"
+  },
+  {
+    "name": "Decoração",
+    "description": "Escolha a decoração para sua festa, e nós a montamos.",
+    "price": 1400,
+    "image": "https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia12590/arranjos-florais-cursos-cpt.jpg"
+  }
+]
+
+  

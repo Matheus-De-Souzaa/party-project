@@ -1,0 +1,92 @@
+### 
+POST http://localhost:3000/api/services/
+Content-Type: application/json
+
+{
+   "name": "Decoração",
+    "description": "Escolha a decoração para sua festa, e nós a montamos.",
+    "price": 1400,
+    "image": "https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia12590/arranjos-florais-cursos-cpt.jpg"
+}
+
+### 
+GET http://localhost:3000/api/services/
+
+
+###
+GET http://localhost:3000/api/services/672997a8d0e421add94da3a7
+
+### 
+DELETE http://localhost:3000/api/services/672997a8d0e421add94da3a7
+
+### 
+PUT http://localhost:3000/api/services/672997b2d0e421add94da3aa
+Content-Type: application/json
+
+{
+    "name": "TESTE ATUALIZAÇÃO",
+    "description": "Alguma descrição",
+    "price": 2500,
+    "image": "https://via.placeholder.com/150"
+}
+
+###
+POST http://localhost:3000/api/parties
+Content-Type: application/json
+
+{
+        "title": "Meu evento 2",
+        "author": "Matheus",
+        "description": "Uma festa de aniversário",
+        "budget": 9000,
+        "image": "https://via.placeholder.com/150",
+        "services": [
+    {
+         "name": "Algum serviço 1",
+         "description": "Alguma descrição",
+         "price": 3000,
+         "image": "https://via.placeholder.com/150"
+    },
+    {  
+        "name": "Algum serviço 2",
+        "description": "Alguma descrição",
+        "price": 1600,
+        "image": "https://via.placeholder.com/150"
+    }
+    ]
+}
+
+###
+GET http://localhost:3000/api/parties
+
+###
+GET http://localhost:3000/api/parties/672a2f2a704a2b6c5594ec25
+
+###
+DELETE http://localhost:3000/api/parties/672a2f2a704a2b6c5594ec25
+
+###
+PUT http://localhost:3000/api/parties/672a30db704a2b6c5594ec27
+Content-Type: application/json
+
+{
+        "title": "Meu evento 2",
+        "author": "Matheus",
+        "description": "Uma festa de aniversário",
+        "budget": 10000,
+        "image": "https://via.placeholder.com/150",
+        "services": [
+    {
+         "name": "Algum serviço 1",
+         "description": "Alguma descrição",
+         "price": 3000,
+         "image": "https://via.placeholder.com/150"
+    },
+    {  
+        "name": "Algum serviço 2",
+        "description": "Alguma descrição",
+        "price": 1600,
+        "image": "https://via.placeholder.com/150"
+    }
+    ]
+}

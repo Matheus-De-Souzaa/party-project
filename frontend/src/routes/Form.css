@@ -1,0 +1,106 @@
+.form-page h2,
+.form-page p {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-page p {
+    color: #7703fc;
+}
+
+.form-page form {
+    background-color: #fff;
+    border: 1px solid #cfcfcf;
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+.form-page label {
+    color: #747990;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-page input,
+.form-page textarea {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #cfcfcf;
+}
+
+.form-page input::placeholder {
+    color: #a4a7b4;
+}
+
+.form-page .service {
+    max-width: 29%;
+    text-align: center;
+}
+
+.form-page .checkbox-container {
+    margin-bottom: 0;
+}
+
+.form-page .service img {
+    width: 100%;
+}
+
+.form-page .checkbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0 2rem;
+
+}
+
+.form-page .service img {
+    width: 180px; /* Largura fixa */
+    height: 120px; /* Altura fixa */
+    object-fit: cover; /* Corta a imagem se necessário para preencher o espaço */
+    border-radius: 8px; /* Borda arredondada opcional */
+}
+
+.form-page .service {
+    max-width: 180px;
+    text-align: center;
+    margin: 0.5rem; /* Espaço ao redor de cada serviço */
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Espaçamento entre os serviços */
+    justify-content: center; /* Centraliza os serviços no contêiner */
+    padding: 0 2rem;
+}
+
+.form-page .checkbox-container p {
+    color: #747990;
+    font-size: 0.7rem;
+    margin-bottom: 0;
+}
+
+.form-page .service-name {
+    font-weight: bold;
+}
+
+.form-page .service-price {
+    color: #747990;
+}
+
+.form-page .btn {
+    max-width: 150px;
+    margin: 0 auto;
+    font-size: 1.01rem;
+}
